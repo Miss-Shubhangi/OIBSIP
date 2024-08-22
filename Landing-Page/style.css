@@ -1,0 +1,843 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-name {
+    font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', 'Apple Chancery', 'Bradley Hand', cursive;
+    font-weight: 300;
+    font-size: 40px;
+    padding-left: 34px;
+
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgba(99, 92, 92, 0.1);
+    box-shadow: 0 0 10px gray;
+    position: fixed;
+    z-index: 10;
+    font-family: "Merriweather", serif;
+}
+
+.menuicon {
+    height: 30px;
+    display: none;
+}
+
+.nav-item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.nav-item {
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: url('./imgs/header-bg-img1.jpg') no-repeat center center;
+    background-size: cover;
+    color: #333;
+    height: 600px;
+    position: relative;
+    padding-top: 90px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height:650px;
+}
+
+.product-info {
+    max-width: 40%;
+}
+
+.product-info h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.product-info h2 {
+    font-size: 5rem;
+    margin: 0;
+    color: #339994;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', 'Apple Chancery', 'Bradley Hand', cursive;
+    font-weight: 300;
+}
+
+.product-info p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.btn-discover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.collection-section {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 20px;
+   background-color: #fff;
+}
+.collection-section :hover{
+    opacity: 80%;
+    transition: 1.5s;
+   
+}
+
+.collection-item {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 5px 0px 55px;
+    margin: 0px 0px;
+    border: 2px solid rgb(180, 147, 147);
+    background: url('./imgs/header-bg-img1.jpg') no-repeat center center;
+    background-size: cover;
+    width: 550px;
+}
+.collection-item :hover{
+    opacity: 80%;
+    transition: 1.5s;
+  
+}
+
+
+.collection-info {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.collection-info h3 {
+    font-size: 2rem;
+    color: #339994;
+    margin-bottom: 10px;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', 'Apple Chancery', 'Bradley Hand', cursive;
+    font-weight: 300;
+}
+
+.collection-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn-shop {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.collection-image {
+    width: 60%;
+    text-align: right;
+  
+}
+
+.collection-image img {
+    max-width: 100%;
+    height: 250px;
+   
+}
+.collection-image img:hover{
+    opacity: 90%;
+    transition: 1.5s;
+     transform: scale(0.9);
+}
+
+
+
+.fragrance-section {
+    text-align: center;
+    padding: 0px 20px;
+    background-color: #fff;
+}
+
+.fragrance-section h1 {
+   font-style: normal;
+    margin-bottom: 10px;
+   
+}
+.fragrance-section h2{
+    color:#339994;
+    font-size: 3rem;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', 'Apple Chancery', 'Bradley Hand', cursive;
+    font-weight: 300;
+}
+
+.fragrance-section p {
+    font-size: 1.2rem;
+    color: #888;
+}
+
+
+.feature-container {
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fragrance-feature{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-img {
+    height: 100px;
+    width: 100px;
+}
+
+.descriptionFont {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.product-section{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.ProductCard {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 30px;
+    text-align: center;
+    width: 270px;
+    height: 360px;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.btn-box {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.Productimg {
+    height: 230px;
+}
+
+.cards-title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.view-details-btn {
+    background-color: #6dc8e5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-details-btn:hover {
+    background-color: #5dbfe0;
+}
+
+.explore-btn{
+    background-color: #6dc8e5;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 15px 0px ;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.feature-image img {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+    
+}
+
+.feature-text {
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+.feature-title {
+    color: #339994;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', 'Apple Chancery', 'Bradley Hand', cursive;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.feature-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.feature-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.feature-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #000;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.feature-button {
+    background-color: #000;
+    color: #fff;
+}
+
+.headingFont {
+    font-weight: 300;
+    color:#339994;
+    font-size: 3rem;
+    font-family: 'Brush Script MT', 'Lucida Handwriting', 'Comic Sans MS', 'Apple Chancery', 'Bradley Hand', cursive;
+   
+}
+
+.subHeadingFont {
+    font-family: "Playwrite FR Moderne", cursive;
+    font-style: italic;
+    font-size: 23px;
+}
+
+.descriptionFont {
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 5px auto;
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+    height: 600px;
+}
+
+.image-container:hover {
+    box-shadow: inset 3px 3px 5px 1px #a3a3a3;
+    transition: 2s;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text-container {
+    width: 600px;
+    height: 450px;
+    border: 1px solid #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    font-size: 20px;
+    color: #333;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+}
+
+.footer-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.img {
+    height: 250px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.quick-links, .useful-links {
+    height: 230px;
+    width: 150px;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    height: 230px;
+    width: 240px;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.footer-icon {
+    height: 28px;
+    margin: 10px;
+    margin-top: 40px;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+.media{
+    padding-left: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+    .footer-desc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        height: 200px;
+        width: 220px;
+    }
+
+    .quick-links, .useful-links, .contact {
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        align-items: center;
+    }
+
+    .footer-icon {
+        margin: 5px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-desc {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .img {
+        height: 150px;
+        width: 180px;
+    }
+
+    .quick-links, .useful-links, .contact {
+        height: auto;
+        width: 100%;
+        padding: 10px 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-icon {
+        height: 24px;
+        margin: 5px;
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .footer-desc {
+        padding: 5px;
+    }
+
+    .img {
+        height: 120px;
+        width: 150px;
+    }
+
+    .quick-links, .useful-links, .contact {
+        padding: 5px 0;
+    }
+
+    .footer-icon {
+        height: 20px;
+        margin: 3px;
+    }
+}
+@media (max-width: 575px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .product-info {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .product-info h1 {
+        font-size: 2rem;
+    }
+
+    .product-info h2 {
+        font-size: 3rem;
+    }
+
+    .collection-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .collection-item {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .collection-info,
+    .collection-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fragrance-feature {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .feature-image,
+    .feature-text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .image-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-overlay {
+        width: 90%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        padding: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero-section {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .product-info {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .product-info h1 {
+        font-size: 3rem;
+    }
+
+    .product-info h2 {
+        font-size: 4rem;
+    }
+
+    .collection-section {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .collection-item {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .collection-info,
+    .collection-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fragrance-feature {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .feature-image,
+    .feature-text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .image-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-overlay {
+        width: 80%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-section {
+        height: 500px;
+    }
+
+    .product-info {
+        max-width: 60%;
+    }
+
+    .product-info h1 {
+        font-size: 3.5rem;
+    }
+
+    .product-info h2 {
+        font-size: 4.5rem;
+    }
+
+    .collection-section {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .collection-item {
+        flex-direction: row;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .collection-info,
+    .collection-image {
+        width: 50%;
+        text-align: left;
+    }
+
+    .fragrance-feature {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .feature-container {
+        flex-direction: row;
+        margin: 20px 0;
+    }
+
+    .feature-image,
+    .feature-text {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .image-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text-overlay {
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-section {
+        height: 550px;
+    }
+
+    .product-info {
+        max-width: 50%;
+    }
+
+    .product-info h1 {
+        font-size: 4rem;
+    }
+
+    .product-info h2 {
+        font-size: 5rem;
+    }
+
+    .collection-item {
+        width: 45%;
+    }
+
+    .feature-container {
+        flex-direction: row;
+        margin: 30px 0;
+    }
+
+    .feature-image,
+    .feature-text {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .image-container {
+        width: 80%;
+    }
+
+    .text-overlay {
+        width: 50%;
+        padding: 40px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px){
+      
+    .logo{
+        height: 60px;
+    }
+
+    .navbar-container{
+      
+        height: 70px;
+        
+    }
+    .nav-item-container{
+        width: 60%; 
+    }
+  
+    .sign-up{
+        padding: 5px 10px;
+        font-size:14px;
+    }
+    .nav-item{
+        font-size: 16px;
+        
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px){
+
+     
+    .logo{
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .navbar-container{
+      
+        height: 65px;  
+    }
+    .nav-item-container{
+        width: 65%; 
+    }
+  
+    .sign-up{
+        padding: 5px 8px;
+        font-size:13px;
+    }
+    .nav-item{
+        font-size: 15px;
+        
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 499px){
+    
+    .logo{
+        height: 45px;
+       
+    }
+
+    .navbar-container{
+      
+        height: 60px;  
+    }
+    .nav-item-container{
+       display: none;
+    }
+  
+}
